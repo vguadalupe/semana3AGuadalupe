@@ -7,7 +7,7 @@
         <Label Text="Esta es la ventana 1" BackgroundColor="Aqua" TextColor="Blue"></Label>
 
         <Entry x:Name="txtUser"
-               Placeholder="Ingrese Usuario"/>
+               Placeholder="Ingrese Usuario"/> 
         <Entry x:Name="txtPassword"
                Placeholder="Ingrese Contraseña" 
                IsPassword="True"/>
