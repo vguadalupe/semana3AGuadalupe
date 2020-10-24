@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="semana3AGuadalupe.MainPage">
+
+    <StackLayout>
+        <Label Text="Esta es la ventana 1" BackgroundColor="Aqua" TextColor="Blue"></Label>
+
+        <Entry x:Name="txtUser"
+               Placeholder="Ingrese Usuario"/>
+        <Entry x:Name="txtPassword"
+               Placeholder="Ingrese Contraseña" 
+               IsPassword="True"/>
+
+        <Button x:Name="btnAbrirVentana2" Text="Abrir ventana 2" Clicked="btnAbrirVentana2_Clicked"></Button>
+    
+    </StackLayout>
+
+</ContentPage>
